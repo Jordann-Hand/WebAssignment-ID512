@@ -1,10 +1,9 @@
 *{
-    margin: 0;
-    padding: 0;
     box-sizing:border-box;
 }
 
 body{
+    -webkit-font-smoothing: antialiased;
     color: #373f3d;
     line-height: 24px;
 }
@@ -18,4 +17,19 @@ body{
     font-family: inherit;
     font-style: inherit;
     vertical-align: baseline;
+}
+
+ul{
+    list-style-type: none;
+    width:500px;
+    height:500px;
+    border:1px solid black;
+}
+
+li{
+    border:1px solid blue;
+    display:inline-block;
+    vertical-align: top;
+    height:100px;
+    width:100px;
 }
