@@ -25,7 +25,7 @@ body{
     grid-auto-rows: minmax(60px, auto);
     background-color: grey;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 1px;
 
 }
 
@@ -98,18 +98,30 @@ body{
     text-align: left;
 }
 
-
-/*ul{
-    list-style-type: none;
-    width:500px;
-    height:500px;
-    border:1px solid black;
+.topHalveFooter{
+    content: "";
+    display: table;
+    clear: both;
 }
 
-li{
-    border:1px solid blue;
-    display:inline-block;
-    vertical-align: top;
-    height:100px;
-    width:100px;
-} */
+.oneOfTwo{
+    float: left;
+    width: 50%;
+    height: 200px;
+    text-align: left;
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: salmon;
+}
+
+.twoOfTwo{
+    float: left;
+    width: 50%;
+    height: 200px;
+    text-align: left;
+    padding: 20px;
+    background-color: lightyellow;
+}
+
+
