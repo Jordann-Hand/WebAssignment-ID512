@@ -15,6 +15,10 @@
     width: 100%;
     z-index: 9;
     justify-content: space-evenly;
+    background: transparent;
+    background-image: none;
+    box-shadow: none;
+    padding-top: 30px;
 }
 
 .logo img{
@@ -27,6 +31,7 @@
     grid-column: 1;
     grid-row: span 2;
     padding: 20px;
+    border-top: 1px solid gray;
 }
 
 .threeFourFiveSix{
@@ -35,6 +40,7 @@
     padding: 20px;
     border-left: 1px solid gray;
     text-align: center;
+    border-top: 1px solid gray;
 }
 
 .seven {
@@ -44,6 +50,7 @@
     border-left: 1px solid gray;
     border-bottom: 1px solid gray;
     border-right: 1px solid gray;
+    border-top: 1px solid gray;
 }
 
 .eight {
@@ -52,6 +59,7 @@
     padding: 20px;
     border-bottom: 1px solid gray;
     border-right: 1px solid gray;
+    border-top: 1px solid gray;
 }
 
 .nine{
@@ -59,6 +67,7 @@
     grid-row: 1;
     padding: 20px;
     border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
 }
 
 .ten{
@@ -122,12 +131,29 @@ a:hover{
       font-family: 'Cabin', Sans-serif;
       background: linear-gradient(
         to bottom, 
-        #000000 , #000000 20%, 
+        #000000 20%, #000000 20%, 
         white 20%, white 40%, 
         #000000 40%, #000000 60%, 
         white 60%, white 80%, 
         #000000 80%, #000000 100%
       );
+  }
+
+  #hamburger-logo img{
+    top: 20px;
+    left: 20px;
+    height: 100px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #hamburger-logo{
+    position: fixed;
+    display: none;
+    border: none;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   #hamburger-menu #sidebar-menu {
@@ -137,7 +163,7 @@ a:hover{
       left: -250px;
       width: 200px;
       height: 100%;
-      background-color: #fffdd0;
+      background-color: #ffffff;
       transition: 0.3s;
       padding-top: 30px;
       padding-left: 10px;
@@ -186,6 +212,10 @@ a:hover{
     }
     #hamburger-menu {
       display: inline;
+    }
+    #hamburger-logo {
+        display: none; /* display none for now */
+        text-align: center;
     }
   }
 
