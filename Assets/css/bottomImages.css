@@ -1,0 +1,80 @@
+.bottomImages {
+    display: flex;
+    color: white;
+}
+
+.bottomImages img{
+    height: 580px;
+}
+
+.col1{
+    flex: 33.33%;
+    position: relative;
+    padding: 25px;
+}
+
+.col1 .teaText{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;    
+    height:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col2{
+    flex: 33.33%;
+    position: relative;
+    padding: 25px;
+}
+
+.col2 .merchText{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;    
+    height:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.col3{
+    flex: 33.33%;
+    position: relative;
+    padding: 25px;
+}
+
+.col3 .brewWaresText{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;    
+    height:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottomImages a{
+    text-decoration: none;
+}
+
+.col1 a:hover h3{
+    text-decoration: underline;
+}
+.col2 a:hover h3{
+    text-decoration: underline;
+}
+.col3 a:hover h3{
+    text-decoration: underline;
+}
+
+
+
