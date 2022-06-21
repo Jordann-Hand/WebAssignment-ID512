@@ -1,16 +1,19 @@
-.bottomImages {
+.imageCol {
     display: flex;
     color: white;
+    height: 650px;
+    padding: 30px;
+    column-gap: 25px;
 }
 
-.bottomImages img{
-    height: 580px;
+.imageCol img{
+    height: 100%;
 }
 
 .col1{
     flex: 33.33%;
     position: relative;
-    padding: 25px;
+    border: 1px solid black;
 }
 
 .col1 .teaText{
@@ -28,7 +31,6 @@
 .col2{
     flex: 33.33%;
     position: relative;
-    padding: 25px;
 }
 
 .col2 .merchText{
@@ -47,7 +49,6 @@
 .col3{
     flex: 33.33%;
     position: relative;
-    padding: 25px;
 }
 
 .col3 .brewWaresText{
@@ -62,7 +63,15 @@
     align-items: center;
 }
 
-.bottomImages a{
+.colUnique{
+    flex:33.33%;
+    position: relative;
+    color: black;
+    border-radius: 3px;
+    border: 1px solid lightgray
+}
+
+.imageCol a{
     text-decoration: none;
 }
 
