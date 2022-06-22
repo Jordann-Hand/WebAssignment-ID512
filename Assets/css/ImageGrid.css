@@ -6,8 +6,7 @@
     padding: 25px;
 }
 
-.imageCol img, .imageCol2 img{
-    height: 100%;
+.imageCol img{
 }
 
 .col1{
@@ -96,6 +95,7 @@
     width: 100%;
     position: relative;
 }
+
 .itemText{
     position: absolute;
     top: 30px;

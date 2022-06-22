@@ -8,7 +8,65 @@
 
         <%- include('navbar.ejs') %>
         
-        <h1>Brew wares</h1>
+        <div class = "imageCol2">
+            <div class = "row">
+                <div class = "column">
+                    <div class = "itemText">
+                        <h1>Teas</h1>
+                        <p>Swallowtail offers the finest tea,<br> blends and tisanes.</p>
+                        <div class = "myBtnContainer">
+                           <button class="btn active" onclick="filterSelection('all')"><h3>SHOW ALL</h3></button>
+                            <button class="btn" onclick="filterSelection('accessories')"><h3>ACCESORIES</h3></button>
+                            <button class="btn" onclick="filterSelection('cups')"><h3>CUPS</h3></button>
+                            <button class="btn" onclick="filterSelection('candles')"><h3>CANDLES</h3></button>
+                            <button class="btn" onclick="filterSelection('sets')"><h3>sets</h3></button>
+                        </div> 
+                    </div>
+                </div>
+                <div class = "column">
+                    <div class = "filterDiv candles">
+                        <img src="img\BrewWares\CandleSet.jpg" alt = "candleSet" style = "width:100%;">
+                        <div class = "itemText">
+                            <h3>Beeswax Candle</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class = "column">
+                    <div class = "filterDiv cups">
+                        <img src="img\BrewWares\GlassAndBoards.jpg" alt = "glassAndBoards" style = "width:100%;">
+                        <div class = "itemText">
+                            <h3>Glass and Boards</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class = "row">
+                <div class = "column">
+                    <div class = "filterDiv sets">
+                        <img src="img\BrewWares\DeisgnerTeaSet.jpg" alt = "deisgnerTeaSet" style = "width:100%;">
+                        <div class = "itemText">
+                            <h3>Designer Tea Set</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class = "column">
+                    <div class = "filterDiv accessories cups">
+                        <img src="img\BrewWares\TeaCupWithBowl.jpg" alt = "teaCupWithBowl" style = "width:100%;">
+                        <div class = "itemText">
+                            <h3>Teacup With Bowl</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class = "column">
+                    <div class = "filterDiv accessories">
+                        <img src="img\BrewWares\MatteBlackTeaPot.jpg" alt = "matteBlackTeaPot" style = "width:100%;">
+                        <div class = "itemText">
+                            <h3>Matte Black Teapot</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>               
+        </div>
     </div>
 </body>
 
