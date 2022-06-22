@@ -7,6 +7,7 @@
 }
 
 .imageCol img{
+    height: 100%;
 }
 
 .col1{
@@ -115,7 +116,7 @@
     font-size: 20px;
 }
 
-.btn{
+.filterButton{
     cursor: pointer;
     outline: none;
     padding:20px;
@@ -128,10 +129,14 @@
     justify-content: center;
 }
 
-.btn:hover{
+.filterButton:hover{
     text-decoration: underline;
 }
 
-.btn.active{
+.filterButton.active{
     background-color: gray;
+}
+
+.show{
+    display: block;
 }
