@@ -19,14 +19,43 @@ body{
     vertical-align: baseline;    
 }
 
-#backgroundImage{
+#backgroundImage1{
     background: url(/img/backgroundImage2.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     height: 600px;
+    width: 100%;
 }
+
+#backgroundImage2{
+    background: url(/img/backgroundImage.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+#backgroundImage3{
+    background: url(/img/backgroundImage3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+
+
+.background2{
+    display: none;
+}
+.background3{
+    display: none;
+}
+
 
 h1{
     font-size: 70px;

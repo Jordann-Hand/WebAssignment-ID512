@@ -135,3 +135,11 @@
 .hide{
     display: none;
 }
+
+@media screen and (max-width: 800px) {
+    .imageCol{
+        display: inline;
+        height: 400px;
+        width: 100%;
+    }
+  }

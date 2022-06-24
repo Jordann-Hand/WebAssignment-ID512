@@ -37,11 +37,16 @@
     display: flex;
     grid-column: span 2;
     grid-row: span 2;
-    padding: 20px;
+    padding-left: 20px;
     border-left: 1px solid gray;
     text-align: center;
     border-top: 1px solid gray;
     flex-direction: column;
+    font-size: 20px;
+}
+
+.threeFourFiveSix .p{
+  display: none;
 }
 
 .line1{
@@ -50,8 +55,8 @@
 }
 
 .line2{
-display: flex;
-flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .line3{
@@ -129,6 +134,7 @@ a {
 a:hover{
     text-decoration:underline;
 }
+
 
 
 #hamburger-input{
