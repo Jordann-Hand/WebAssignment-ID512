@@ -86,6 +86,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
     padding: 25px;
+    grid-column-start: 2;
 }
 
 .imageCol2 .column{
@@ -154,16 +155,14 @@
 
 @media screen and (max-width: 800px) {
     .imageCol{
-        display: inline;
-        height: 400px;
-        width: 100%;
+        display: inline-flex;
     }
   }
   @media screen and (max-width: 1000px) {
     .display2{
         display: inline;
     }
-    .imageGrid2 .columnUnique{
+    .imageCol2 .columnUnique{
         display: none;
     }
   }

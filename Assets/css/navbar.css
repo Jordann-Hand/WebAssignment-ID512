@@ -219,7 +219,7 @@ a:hover{
     color: gray;
   }
   
-  #hamburger-input:checked + #hamburger-menu #sidebar-menu {
+#hamburger-input:checked + #hamburger-menu #sidebar-menu {
       visibility: visible;
       left: 0;
   }
