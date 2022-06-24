@@ -97,6 +97,15 @@
     flex-direction: row;
 }
 
+.imageCol2 .columnUnique{
+    color: black;
+    border: 1px solid lightgray;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
 .itemText{
     display: flex;
     justify-content: center;
@@ -136,10 +145,25 @@
     display: none;
 }
 
+.display2{
+    display: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
 @media screen and (max-width: 800px) {
     .imageCol{
         display: inline;
         height: 400px;
         width: 100%;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .display2{
+        display: inline;
+    }
+    .imageGrid2 .columnUnique{
+        display: none;
     }
   }

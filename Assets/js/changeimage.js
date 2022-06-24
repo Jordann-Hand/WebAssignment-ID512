@@ -17,7 +17,7 @@
    // document.body.style.backgroundImage = "url('"+backgroundImage[i]+"')";
     }
  */
-
+/*
 let btnContainer = document.getElementById("#backgroundChange");
 let backgroundImage = [];
     backgroundImage[0] = "\img\BackgroundImage.jpg";
@@ -29,5 +29,5 @@ for (let i = 0; i < backgroundImage.length; i++) {
     current[0].className = current[0].className.replace(" display", "");
     this.className +=" display";
 } 
-  
+  */
   

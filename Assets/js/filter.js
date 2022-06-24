@@ -35,7 +35,7 @@ function RemoveClass(element, name) {
 } 
 
 // Adds active class to the current control button (highlights it)
-let btnContainer = document.getElementById("#myBtnContainer");
+let btnContainer = document.getElementById("myBtnContainer");
 let btns = document.querySelectorAll(".filterButton");
 for (let i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function() {
