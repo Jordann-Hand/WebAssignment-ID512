@@ -1,7 +1,11 @@
-<div class = "display2">
+<!--Html content for brewwares page-->
+<div class = "display2"><!--second display for when screen size is too small-->
     <h1>Wares</h1>
     <p>>We offer many products that will complement your experience with Swallowtail Tea.</p>
     <div id = "myBtnContainer">
+                <!--Buttons for top of page when screen size is too small
+        display is currently set to none
+        -->
         <button class="filterButton" onclick="filterSelection('all')"><h3>SHOW ALL</h3></button>
         <button class="filterButton" onclick="filterSelection('accessories')"><h3>ACCESORIES</h3></button>
         <button class="filterButton" onclick="filterSelection('cups')"><h3>CUPS</h3></button>
@@ -9,13 +13,16 @@
         <button class="filterButton" onclick="filterSelection('sets')"><h3>sets</h3></button>
     </div>
 </div>
-<div class = "imageCol2">
+<div class = "imageCol2"><!--Main display for brewwares page-->
     <div class = "row">
-        <div class = "columnUnique">
+        <div class = "columnUnique"><!--called column unique because it is different to the other column
+                                    items in this grid structure in the fact that it has to 
+                                    dissapear when screen size gets to small-->
             <div class = "itemText">
                 <h1>Wares</h1>
                 <p>We offer many products that will<br> complement your experience with<br> Swallowtail Tea.</p>
                 <div id = "myBtnContainer">
+                    <!--Button container first button is set to active so it is always showing all when page loads-->
                     <button class="filterButton active" onclick="filterSelection('all')"><h3>SHOW ALL</h3></button>
                     <button class="filterButton" onclick="filterSelection('accessories')"><h3>ACCESORIES</h3></button>
                     <button class="filterButton" onclick="filterSelection('cups')"><h3>CUPS</h3></button>
@@ -43,6 +50,9 @@
     </div>
     <div class = "row">
         <div class = "column">
+                            <!--The main items of the page class name filterDiv for use in filter.js
+                            and if a button is clicked and matches the second name in the class
+                            that item will only show-->
             <div class = "filterDiv sets">
                 <div class = "itemText">
                     <h3>Designer Tea Set</h3>
@@ -69,5 +79,5 @@
     </div>               
 </div>
 </div>
-
+<!--Implementing filter.js into teas page-->
 <script src = "js/filter.js"></script>

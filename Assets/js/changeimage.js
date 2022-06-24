@@ -1,4 +1,7 @@
-/*
+/* A couple of my many attempts to get the background image changing. 
+one was my own attempt and one from the internet. 
+They do not work so commented out
+
     let backgroundImage = [];
     backgroundImage[0] = "\img\BackgroundImage.jpg";
     backgroundImage[1] = "\img\backgroundImage2.jpeg";

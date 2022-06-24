@@ -1,9 +1,11 @@
+/* styles the top halve of the footer and sets the display */
 .topHalveFooter{
     display: grid;
     grid-template-columns: (2, 1fr);
     grid-auto-rows: 1fr;
 }
 
+/* style 1/2 of the top half of the footer */
 .oneOfTwo{
     grid-column: 1;
     grid-row: 1;
@@ -18,6 +20,7 @@
     background-color: salmon;
 }
 
+/* style 1/2 of the top part of the footer accordingly */
 .twoOfTwo{
     grid-column: 2;
     grid-row: 1;
@@ -30,18 +33,18 @@
     padding-bottom: 30px;
     background-color: lightyellow;
 }
-
+/*Styling the bottom half of the footer setting the display to grid */
 .bottomHalveFooter{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: minmax(60px, auto);
     padding: 10px;
 }
-
+/*remove bullet points from the list */
 .bottomHalveFooter ul{
     list-style-type: none;
 }
-
+/* some messy css that i did not get a chance to fix up. Works though */
 .a{
     grid-column: 1;
     grid-row: 1;

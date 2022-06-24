@@ -1,3 +1,7 @@
+<!--Html for my navbar
+NOTE: Same as in footer, not the tidiest way to do it.
+-->
+
 <header id = "header">
     <nav>
         <div class="container">
@@ -5,10 +9,11 @@
                 <div class= "logo">
                     <a href = "/"><img src ="img\Logo.webp" /></a>
                 </div>
-
+                <!--The big box in the navbar, made with a bunch of divs. Could not figure out how
+                to get the fullstops to appear properly so did it the cheat way.-->
                 <div class = "threeFourFiveSix">
                     <a href = "/teas">
-                        <div class = "line1">                       
+                        <div class = "line1">   <!--First line of the big box with a link to teas page-->                    
                             <div class = "numeral"> 
                                 <p>I</p>                              
                             </div>
@@ -20,7 +25,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href = "/brewwares">
+                    <a href = "/brewwares"> <!--Second line with a link to brewwares-->
                         <div class = "line2">
                             <div class = "numeral">  
                                 <p>II</p>                              
@@ -33,7 +38,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href = "/merch">
+                    <a href = "/merch"> <!--Third line with a link to merch page-->
                         <div class = "line3">
                             <div class = "numeral">     
                                 <p>III</p>                           
@@ -47,7 +52,7 @@
                         </div>
                     </a>
                 </div>
-
+                <!--Some more messy code for the right hand side grid structure of the navbar-->
                 <div class = "seven">
                     <a href = "/teas">TEAS</a>
                 </div>
@@ -69,11 +74,8 @@
             </div>              
         </div>
     </nav>
-
-
-    <div id = "hamburger-logo">
-        <a href = "/"><img src ="img\Logo.webp" /></a>
-    </div>
+<!--Hamburger menu html, items of it is in a ul with links where needed. Display is set to none until it
+    meets media requirements in the css-->
     <input type = "checkbox" id = "hamburger-input" class="burger-shower" />
     <label id = "hamburger-menu" for ="hamburger-input">
     <nav id = "sidebar-menu">
@@ -90,6 +92,7 @@
                 <li><h3>Legal</h3></li>
             </ul>
         </nav>
+        <!--<img src="img\Logo.webp"> -->
     </label>
 
     <div class = "overlay"></div> 

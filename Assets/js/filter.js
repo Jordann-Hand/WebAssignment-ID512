@@ -1,3 +1,6 @@
+/*Filters content shown depending on the button clicks.
+ Next step would have been to just add a class name and not automatically remove the class name from other ones
+ Had a wee play around with that but ultimately ran out of time */
 
 filterSelection("all")
 function filterSelection(c) {

@@ -1,13 +1,13 @@
 *{
     box-sizing:border-box;
 }
-
+/* Swallowtail website does not consist of many colours so felt not much need to declare brand colors etc */
 body{
     -webkit-font-smoothing: antialiased;
     color: #373f3d;
     line-height: 24px;
 }
-
+/*sets main id on each page to default have these properties */
 #main{
     margin: 0;
     padding: 0;
@@ -28,6 +28,9 @@ body{
     height: 600px;
     width: 100%;
 }
+/*failed attempts at getting background image to change.. 
+would love to know how it is done as i spent way to long trying way to many ways trying to figure it out
+here i thought i could use js to change the id to these every few seconds. but js is definitely my weakest area
 
 #backgroundImage2{
     background: url(/img/backgroundImage.jpeg);
@@ -47,16 +50,16 @@ body{
     height: 600px;
     width: 100%;
 }
-
+*/
 
 .background2{
-    display: none;
+    display: none; /*Set display to none for these two so they do not appear */
 }
 .background3{
     display: none;
 }
 
-
+/*Sets all h1 and h3 sizes */
 h1{
     font-size: 70px;
 }
@@ -82,11 +85,12 @@ h3{
     display: inline-block;
 }
 
+/* middleImage of page set to flex */
 .middleImages {
     display: flex;
     background-color: white;
   }
-
+/*Each column has a flex of 20% (5 columns */
   .column {
     flex: 20%;
     padding: 5px;

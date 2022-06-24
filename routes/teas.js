@@ -1,3 +1,4 @@
+//route for teas page
 const router = require("express").Router()
 
 let teas_controller = require("../controllers/teas")

@@ -1,3 +1,6 @@
+/*navbar is one of the parts i am most proud of. Managed to implement a hamburger menu
+*/
+
 .header{
     padding: 0px;
     margin: 0px;
@@ -32,7 +35,7 @@
     padding: 20px;
     border-top: 1px solid gray;
 }
-
+/*the big middle box, sets display to flex and direction column*/
 .threeFourFiveSix{
     display: flex;
     grid-column: span 2;
@@ -45,10 +48,12 @@
     font-size: 20px;
 }
 
+
 .threeFourFiveSix .p{
   display: none;
 }
 
+/* the content inside the big box. Sets display to flex and direction is row */
 .line1{
   display: flex;
   flex-direction:row;
@@ -139,7 +144,7 @@ a:hover{
 #hamburger-input{
     display: none;
   }
-  
+  /* hamburger menu */
   #hamburger-menu {
       position: fixed;
       top: 20px;
@@ -148,7 +153,7 @@ a:hover{
       height: 50px;
       display: none;
       border: none;
-      padding: 0px;
+      padding: 0;
       margin: 0px;
       font-family: 'Cabin', Sans-serif;
       background: linear-gradient(
@@ -161,21 +166,12 @@ a:hover{
       );
   }
 
-  #hamburger-logo img{
-    top: 20px;
-    left: 20px;
+  #hamburger-menu img{
     height: 100px;
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
-  }
-  #hamburger-logo{
-    position: fixed;
-    display: none;
-    border: none;
-    padding: 0px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100px;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
   }
   
   #hamburger-menu #sidebar-menu {
@@ -227,25 +223,22 @@ a:hover{
      visibility: visible;
      opacity: 0.4;
   }
-
+ /* wwhen screen size gets to certain height navbar dissapears and hamburger menu appears */
   @media screen and (max-width: 600px) {
-    .navbar {
+    .navbar {/*Hides nav bar */
       display: none;
     }
-    #hamburger-menu {
+    #hamburger-menu { /*Shows hamburger-menu */
       display: inline;
-    }
-    #hamburger-logo {
-        display: none; /* display none for now */
-        text-align: center;
     }
   }
 
+  /* query for hiding the big box when screen size gets to small and makes the logo take up thag box room */
   @media screen and (max-width: 1000px) {
     .threeFourFiveSix{
         display: none;
     }
-    .logo{
+    .logo{ /*Logo spans an extra 2 columns */
         grid-column: span 3;
         grid-row: span 2;
     }

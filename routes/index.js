@@ -1,3 +1,4 @@
+//route for index
 const router = require("express").Router()
 let index_controller = require("../controllers/index")
 

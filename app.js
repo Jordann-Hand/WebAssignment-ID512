@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 3000 //for heroku and localhost
 
 //setup
 
@@ -16,9 +16,11 @@ const brewwares_router = require('./routes/brewwares')
 app.use("/", index_router)
 app.use("/products", products_router)
 app.use("/products/teas", products_router)
+app.use("/products/brewwares", products_router)
 app.use("/teas", teas_router)
 app.use("/brewwares", brewwares_router)
 
+//Links pages that i did not create routes for because i did not recreate them 
 app.get('/aboutus', (req, res) => {
    res.render("partials/aboutus") //return
  })
