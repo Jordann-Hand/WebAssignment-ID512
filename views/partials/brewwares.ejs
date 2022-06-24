@@ -7,79 +7,8 @@
     <div id = "main">
 
         <%- include('navbar.ejs') %>
-        <div class = "display2">
-            <h1>Wares</h1>
-            <p>>We offer many products that will complement your experience with Swallowtail Tea.</p>
-            <div id = "myBtnContainer">
-                <button class="filterButton" onclick="filterSelection('all')"><h3>SHOW ALL</h3></button>
-                <button class="filterButton" onclick="filterSelection('accessories')"><h3>ACCESORIES</h3></button>
-                <button class="filterButton" onclick="filterSelection('cups')"><h3>CUPS</h3></button>
-                <button class="filterButton" onclick="filterSelection('candles')"><h3>CANDLES</h3></button>
-                <button class="filterButton" onclick="filterSelection('sets')"><h3>sets</h3></button>
-            </div>
-        </div>
-        <div class = "imageCol2">
-            <div class = "row">
-                <div class = "columnUnique">
-                    <div class = "itemText">
-                        <h1>Wares</h1>
-                        <p>We offer many products that will<br> complement your experience with<br> Swallowtail Tea.</p>
-                        <div id = "myBtnContainer">
-                            <button class="filterButton active" onclick="filterSelection('all')"><h3>SHOW ALL</h3></button>
-                            <button class="filterButton" onclick="filterSelection('accessories')"><h3>ACCESORIES</h3></button>
-                            <button class="filterButton" onclick="filterSelection('cups')"><h3>CUPS</h3></button>
-                            <button class="filterButton" onclick="filterSelection('candles')"><h3>CANDLES</h3></button>
-                            <button class="filterButton" onclick="filterSelection('sets')"><h3>sets</h3></button>
-                        </div> 
-                    </div>
-                </div>
-                <div class = "column">
-                    <div class = "filterDiv candles">
-                        <div class = "itemText">
-                            <h3>Beeswax Candle</h3>
-                        </div>
-                        <img src="img\BrewWares\CandleSet.jpg" alt = "candleSet" style = "width:100%;">
-                    </div>
-                </div>
-                <div class = "column">
-                    <div class = "filterDiv cups">
-                        <div class = "itemText">
-                            <h3>Glass and Boards</h3>
-                        </div>
-                        <img src="img\BrewWares\GlassAndBoards.jpg" alt = "glassAndBoards" style = "width:100%;">
-                    </div>
-                </div>
-            </div>
-            <div class = "row">
-                <div class = "column">
-                    <div class = "filterDiv sets">
-                        <div class = "itemText">
-                            <h3>Designer Tea Set</h3>
-                        </div>
-                        <img src="img\BrewWares\DeisgnerTeaSet.jpg" alt = "deisgnerTeaSet" style = "width:100%;">
-                    </div>
-                </div>
-                <div class = "column">
-                    <div class = "filterDiv accessories cups">
-                        <div class = "itemText">
-                            <h3>Teacup With Bowl</h3>
-                        </div>
-                        <img src="img\BrewWares\TeaCupWithBowl.jpg" alt = "teaCupWithBowl" style = "width:100%;">
-                    </div>
-                </div>
-                <div class = "column">
-                    <div class = "filterDiv accessories">
-                        <div class = "itemText">
-                            <h3>Matte Black Teapot</h3>
-                        </div>
-                        <img src="img\BrewWares\MatteBlackTeaPot.jpg" alt = "matteBlackTeaPot" style = "width:100%;">
-                    </div>
-                </div>
-            </div>               
-        </div>
-    </div>
-
-    <script src = "js/filter.js"></script>
+        <%- include('warescontent.ejs') %>
+        
 </body>
 
 <%- include('footer.ejs') %>

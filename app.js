@@ -8,9 +8,11 @@ app.use(express.static('Assets'))
 app.set('view engine', 'ejs')
 app.set('views', './views')
 
-app.get('/', (req, res) => {
-    res.render("index") //return
-  })
+const index_router = require('./routes/index')
+const products_router = require('./routes/products')
+
+app.use("/", index_router)
+app.use("/products", products_router)
 
 app.get('/teas', (req, res) => {
     res.render("partials/teas") //return
