@@ -1,7 +1,7 @@
 {
-  "main": "test.js",
+  "main": "app.js",
   "scripts": {
-    "start" : "node test.js"
+    "start" : "node app.js"
   },
   "dependencies": {
     "ejs": "^3.1.8",
