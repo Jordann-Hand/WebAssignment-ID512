@@ -16,7 +16,6 @@
                             <h1>Teas</h1>
                             <p>Swallowtail offers the finest tea,<br> blends and tisanes.</p>
                             <div id = "myBtnContainer">
-                                <script src = "js/filter.js"></script>
                                 <button class="filterButton active" onclick="filterSelection('all')"><h3>SHOW ALL</h3></button>
                                 <button class="filterButton" onclick="filterSelection('black')"><h3>BLACK</h3></button>
                                 <button class="filterButton" onclick="filterSelection('oolong')"><h3>OOLONG</h3></button>
@@ -28,49 +27,51 @@
                     </div>
                     <div class = "column">
                         <div class = "filterDiv black">
-                            <img src="img\Tea\Black.jpeg" alt = "black" style = "width:100%;">
                             <div class = "itemText">
                                 <h3>Black Tea</h3>
                             </div>
+                            <img src="img\Tea\Black.jpeg" alt = "black" style = "width:100%;">
                         </div>
                     </div>
                     <div class = "column">
                         <div class = "filterDiv oolong">
-                            <img src="img\Tea\Oolong.jpeg" alt = "oolong" style = "width:100%;">
                             <div class = "itemText">
                                 <h3>Oolong</h3>
                             </div>
+                            <img src="img\Tea\Oolong.jpeg" alt = "oolong" style = "width:100%;">
                         </div>
                     </div>
                 </div>
                 <div class = "row">
                     <div class = "column">
                         <div class = "filterDiv puerh">
-                            <img src="img\Tea\Pu'erh.jpeg" alt = "Pu'erh" style = "width:100%;">
                             <div class = "itemText">
                                 <h3>Pu'erh</h3>
                             </div>
+                            <img src="img\Tea\Pu'erh.jpeg" alt = "Pu'erh" style = "width:100%;">
                         </div>
                     </div>
                     <div class = "column">
                         <div class = "filterDiv blends">
-                            <img src="img\Tea\Blends.jpeg" alt = "blends" style = "width:100%;">
                             <div class = "itemText">
                                 <h3>Blends</h3>
                             </div>
+                            <img src="img\Tea\Blends.jpeg" alt = "blends" style = "width:100%;">
                         </div>
                     </div>
                     <div class = "column">
                         <div class = "filterDiv red">
-                            <img src="img\Tea\Red.jpeg" alt = "red" style = "width:100%;">
                             <div class = "itemText">
                                 <h3>Red</h3>
                             </div>
+                            <img src="img\Tea\Red.jpeg" alt = "red" style = "width:100%;">
                         </div>
                     </div>
                 </div>               
             </div>
     </div>
+
+    <script src = "js/filter.js"></script>
 
 </body>
 <%- include('footer.ejs') %>

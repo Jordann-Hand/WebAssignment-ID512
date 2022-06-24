@@ -84,29 +84,24 @@
 .imageCol2 .row{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 1fr;
     gap: 25px;
     padding: 25px;
 }
-
 
 .imageCol2 .column{
     color: black;
     border: 1px solid lightgray;
     width: 100%;
-    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
 .itemText{
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    width:100%;    
-    height:100%;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
     color: black;
 }
 
@@ -137,6 +132,6 @@
     background-color: gray;
 }
 
-.show{
-    display: block;
+.hide{
+    display: none;
 }
