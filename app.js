@@ -10,19 +10,18 @@ app.set('views', './views')
 
 const index_router = require('./routes/index')
 const products_router = require('./routes/products')
+const teas_router = require('./routes/teas')
+const brewwares_router = require('./routes/brewwares')
 
 app.use("/", index_router)
 app.use("/products", products_router)
+app.use("/products/teas", products_router)
+app.use("/teas", teas_router)
+app.use("/brewwares", brewwares_router)
 
-app.get('/teas', (req, res) => {
-    res.render("partials/teas") //return
-  })
 app.get('/aboutus', (req, res) => {
    res.render("partials/aboutus") //return
  })
-app.get('/brewwares', (req, res) => {
-    res.render("partials/brewwares") //return
-  })
 app.get('/cart', (req, res) => {
     res.render("partials/cart") //return
   })
