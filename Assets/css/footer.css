@@ -17,7 +17,7 @@
     padding-right: 0px;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: salmon;
+    background-color: lightgray;
 }
 
 /* style 1/2 of the top part of the footer accordingly */
@@ -31,8 +31,9 @@
     padding: 20px;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: lightyellow;
+    background-color: rgba(55,63,61,.1);
 }
+
 /*Styling the bottom half of the footer setting the display to grid */
 .bottomHalveFooter{
     display: grid;
@@ -103,4 +104,10 @@
     grid-row: 2;
     padding: 20px;
     text-align: left;
+}
+
+@media screen and (max-width: 1000px){
+    .topHalveFooter{
+        display: block;
+    }
 }
