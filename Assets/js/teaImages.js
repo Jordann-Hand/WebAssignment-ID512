@@ -28,13 +28,10 @@ client_id=TbEAYJusOERXIWmLrfswwja4zPnxktEZYiVDtxvJpXY&query=tea-leaves`)
 
 let btns = document.querySelector(".filterButton");
 
-document.querySelector(btns).addEventListener("click", e => {
     for(let i =0; i < btns.length;i++) {
         btns[i].addEventListener("click", function() {
             let current = document.querySelectorAll(".active");
             current[0].className = current[0].className.replace(" active", "");
             this.className +=" active";
     }
-        )};
-});
-
+)};
