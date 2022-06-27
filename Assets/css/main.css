@@ -89,15 +89,23 @@ h3{
 .middleImages {
     display: flex;
     background-color: white;
+    padding: 20px;
+    height: 300px;
+    column-gap: 10px;
   }
 /*Each column has a flex of 20% (5 columns */
   .column3 {
-    flex: 20%;
-    padding: 5px;
+    height: 100%;
+    width: 100%;
+    flex: 15px;
   }
 
-  .column p{
+  .column3 p{
     text-align: center;
+    align-items:baseline;
+    padding-top: 250px; /*cannot find any other way to get it below 
+    except for using position which is just no good */
+    padding-bottom: 30px;
   }
 
 
