@@ -184,4 +184,13 @@
     .imageCol2 .columnUnique{
         display: none; /* Removes the unique column sets the display to none */
     }
+    .imageCol2 .row{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: fit-content;
+    }
+    .column{
+        display: flex;
+        width: 100%;
+    }
   }
